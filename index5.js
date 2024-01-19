@@ -5,6 +5,8 @@ let varC = 'C'; // A
 const varAtemp = varA;
 varA = varB; // B
 varB = varC; // C
-varC = varA; // A
+varC = varAtemp; // A
+
+// [varA, varB, varC] = [varB, varC, varA]
 
 console.log(varA, varB, varC);
