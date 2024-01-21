@@ -1,4 +1,9 @@
 //              01234567
 let umString = 'UM texto';
-console.log(umString[3]); // T
-console.log(umString.charAt(6)); 
+
+console.log(umString.concat(' em um lindo dia.'));
+console.log(umString + ' em um lindo dia.');
+console.log(`${umString} em um lindo dia.`);
+
+
+
